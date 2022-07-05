@@ -1,0 +1,30 @@
+body{
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 140px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+p{
+    color: grey;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: wheat;
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+}

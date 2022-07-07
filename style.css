@@ -1,30 +1,268 @@
-body{
+*{
+    margin: 0px;
+}
+.first{  
+    margin: 0px;  
     background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
+    position: relative;
     background-size: cover;
-    background-attachment: fixed;
+    height: 600px;
 }
-h1{
-    color: aliceblue;
+#first h1{
+    color: white;
     text-align: center;
-    padding-top: 140px;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    padding-top: 15%;
 }
-p{
-    color: grey;
-    text-align: center;
+#first p{
+    color: white;
     font-size: 16px;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
 }
-a{
+#first a{
     text-decoration: none;
-    font-size: 30px;
-    color: wheat;
     background-color: red;
     padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
+.second{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#second h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10%;
+}
+#second p{
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-container h2{
+    color: dimgray;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 2  0px;
+    margin-left:20px;
+    margin-right:20px;
+    padding: 20px;
+}
+#select{
+    color:orangered;
+    background-color: mistyrose;
+    border: 2px solid orangered;
     border-radius: 5px;
+}
+.input input{
+
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:10px;
+    outline: none;
+    font-size: 20px;
+    width: 55%;
+}
+.link a{
+    justify-content: center;
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: red;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.forth h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10%;
+}
+
+.forth p{
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    border: 2px solid none;
+    padding-bottom: 20px;
+}
+.item h3{
+    padding-left: 15px;
+}
+.item p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 80px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+.food img{
+    width: 120px;
+    height: 80px;
+    padding-left: 15px;
+}
+.shelter img{
+    width: 90px;
+    height: 80px;
+    padding-left: 15px;
+}
+.education img{
+    width: 90px;
+    height: 80px;
+    padding-left: 15px;
+}
+.food{
+    border: 1px solid none;
+    padding-left: px;
+    background-color: #ee82ee;
+    margin: 3%;
+}
+.shelter{
+    border: 1px solid none;
+    padding-left: px;
+    background-color: #faedb7;
+    margin: 3%;
+}
+.education{
+    border: 1px solid none;
+    background-color: aqua;
+    margin: 3%;
+}
+.fifth {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:
+}
+.donation p{
+    width: 500px;
+    margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500px;
+    font-size: 12px;
+}
+.donation h1{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifth .side-image{
+    margin-top: 5%;
+}
+.six{
+    margin-top: 3%;
+}
+.six a{
+    text-decoration: none;
+    margin-top: 20%;
+    margin-left: 10%;
+    background-color: red;
+    padding: 20px;
+    color:white;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.seven{
+    margin-top: 10%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.seven h1{
+    font-size: 40px;
+}
+.seven p{
+    margin-top: 5%;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    font-size: 14px;
+    color: gray;
+}
+.seven .button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: #ffebcd;
+    padding: 5%;
+    justify-content: end;
+}
+.button input{
+    border: none;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    font-size: 16px;
+    background-color: #dcdcec;
+    border-radius: 3px;
+}
+.button #other{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    text-align: center;
+    margin-top: 10%;
+    background-color: black;
+    height: 120px;
+    padding-top: 3%;
+}
+.footer{
+    font-family: "Lobster Two", cursive;
+}
+.footer h1{
+    color: red;
+    font-size: 30px;
+    font-family: "";
+    font-weight: bold;
+}
+.footer p{
+    color: white;
+    padding-top: 2%;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
